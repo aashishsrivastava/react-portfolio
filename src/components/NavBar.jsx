@@ -10,9 +10,9 @@ const NavBar = () => {
   return (
     <>
       {/* <nav className=" mb-20  flex items-center justify-between py-6"> */}
-      <nav className="   flex items-center justify-between py-6">
+      <nav className="   flex items-center justify-between py-3">
         <div className="flex flex-shrink-0 items-center">
-          <img className="mx-2 w-16 rounded-full " src={logo} alt="logo" />
+          <img className="mx-2 w-10 rounded-full " src={logo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center text-3xl lg:gap-7 md:gap-2 pr-2  ">
           <a

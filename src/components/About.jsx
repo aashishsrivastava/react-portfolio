@@ -37,7 +37,7 @@ const About = () => {
             <div className="flex justify-center lg:justify-start">
               <ul className="my-2 max-w-xl py-6 list-disc pl-5">
                 {ABOUT_TEXT.map((item, index) => (
-                  <li key={index} className="my-2">
+                  <li key={index} className="my-1">
                     {item}
                   </li>
                 ))}
